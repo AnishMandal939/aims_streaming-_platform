@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-header{
+.header{
     background: url('./assets/Vectary\ texture.png');
     height: 100vh;
 }
@@ -66,5 +66,67 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 3rem;
 
 }
+
+.header__search__wrapper{
+    margin: auto;
+        background: white;
+    padding: 0.3rem;
+    border-radius: 6px;
+}
+
+.header__search__wrapper input{
+    border: none;
+    outline: none;
+}
+
+header .button {
+    right: 2rem;
+    top: 1rem;
+    padding: 0.4rem;
+    border-radius: 2px;
+    border: 0;
+}
+.signup{
+    position: absolute;
+}
+
+.homepage__link{
+    color: white;
+    text-decoration: none;
+}
+
+/* landing page css ends */
+
+/* homepage css here */
+.homepage__nav__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(110deg, #374780 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.homepage__nav__wrapper ul{
+    display: flex;
+    list-style: none;
+    gap: .4rem;
+}
+.search__wrapper__homepage{
+    background: rgb(139, 138, 138);
+    border-radius: 20px;
+    padding: .3rem 1rem;
+
+    
+}
+.search__wrapper__homepage > i{
+    border-left: 1px solid white;
+}
+.search__wrapper__homepage input{
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+}
+/* homepage css end */

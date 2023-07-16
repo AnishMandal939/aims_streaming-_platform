@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Streaming Platform</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- landing page -->
-    <header class="header" id="header">
+    <header>
+      <button class="button signup">signup</button>
+      <div class="header" id="header">
         <div class="header__banner_left">
-            <img src="./assets/globe.png" alt="globe" />
-            <!-- <span></span> -->
+          <img src="./assets/globe.png" alt="globe" />
+          <!-- <span></span> -->
         </div>
         <div class="header__banner_right">
-            <h2>Start Streaming</h2>
-            <button class="header__streaming__button">
-               <span>
-                <img src="./assets/icon_home.png" alt="home icon" />
+          <h2>Start Streaming</h2>
+          <button class="header__streaming__button">
+            <span>
+              <img src="./assets/icon_home.png" alt="home icon" />
             </span>
-            <span>Homepage</span>
-            <span>Homepage</span>
-
-            </button>
-            
+            <span>
+                <a class="homepage__link" href="homepage.html">Homepage</a>
+            </span>
+          </button>
+          <div class="header__search__wrapper">
+            <i class="fa-solid fa-filter"></i>
+            <input type="search" placeholder="Search your movie here..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
         </div>
+      </div>
     </header>
     <!-- header-->
-
-</body>
+  </body>
 </html>
